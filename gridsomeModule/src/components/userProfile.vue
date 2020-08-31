@@ -39,11 +39,7 @@ export default {
    },
    createFarmer () {
      axios.post('http://localhost:1337/farmers', {
-       data: {
-         email: sessionStorage.getItem('email'),
-         fields: '',
-         tenders: ''
-       },
+       email: sessionStorage.getItem('email'),
        headers: {
          'Authorization': 'Bearer ' + sessionStorage.getItem('token')
        }
