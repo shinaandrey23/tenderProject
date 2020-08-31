@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hives",
+  "info": {
+    "name": "hive"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "number": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    },
+    "beekeeper": {
+      "via": "hives",
+      "model": "beekeeper"
+    }
+  }
+}

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5dae1e51-65db-4d66-a646-266e23b32763" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1gUmUyAzxz1JKQn2ovqaYiwDnyg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/strapiModule/package.json" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/strapiModule/extensions/users-permissions/config" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="develop" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/strapiModule/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="develop" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5dae1e51-65db-4d66-a646-266e23b32763" name="Default Changelist" comment="" />
+      <created>1598177565123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598177565123</updated>
+      <workItem from="1598177567004" duration="2573000" />
+      <workItem from="1598180513881" duration="1831000" />
+      <workItem from="1598182917844" duration="5065000" />
+      <workItem from="1598435608928" duration="705000" />
+      <workItem from="1598436662890" duration="2026000" />
+      <workItem from="1598605571937" duration="4891000" />
+      <workItem from="1598783879640" duration="1592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="160" width="1084" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598186105967">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="461" y="160" width="1084" height="758" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1173@72.27.1848.1173" timestamp="1598186105967" />
+    <state x="779" y="384" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598186102974">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state x="779" y="384" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1173@72.27.1848.1173" timestamp="1598186102974" />
+    <state width="1802" height="543" key="GridCell.Tab.0.bottom" timestamp="1598434446609">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.0.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446609" />
+    <state width="1802" height="543" key="GridCell.Tab.0.center" timestamp="1598434446609">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.0.center/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446609" />
+    <state width="1802" height="543" key="GridCell.Tab.0.left" timestamp="1598434446608">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.0.left/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446608" />
+    <state width="1802" height="543" key="GridCell.Tab.0.right" timestamp="1598434446609">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.0.right/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446609" />
+    <state width="1802" height="543" key="GridCell.Tab.1.bottom" timestamp="1598434446610">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.1.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446610" />
+    <state width="1802" height="543" key="GridCell.Tab.1.center" timestamp="1598434446610">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.1.center/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446610" />
+    <state width="1802" height="543" key="GridCell.Tab.1.left" timestamp="1598434446609">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.1.left/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446609" />
+    <state width="1802" height="543" key="GridCell.Tab.1.right" timestamp="1598434446610">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.1.right/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446610" />
+    <state width="1802" height="543" key="GridCell.Tab.2.bottom" timestamp="1598434446611">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.2.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446611" />
+    <state width="1802" height="543" key="GridCell.Tab.2.center" timestamp="1598434446611">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.2.center/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446611" />
+    <state width="1802" height="543" key="GridCell.Tab.2.left" timestamp="1598434446611">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.2.left/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446611" />
+    <state width="1802" height="543" key="GridCell.Tab.2.right" timestamp="1598434446611">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.2.right/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446611" />
+    <state width="1802" height="543" key="GridCell.Tab.3.bottom" timestamp="1598434446613">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.3.bottom/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446613" />
+    <state width="1802" height="543" key="GridCell.Tab.3.center" timestamp="1598434446612">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.3.center/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446612" />
+    <state width="1802" height="543" key="GridCell.Tab.3.left" timestamp="1598434446612">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.3.left/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446612" />
+    <state width="1802" height="543" key="GridCell.Tab.3.right" timestamp="1598434446613">
+      <screen x="72" y="27" width="1848" height="1173" />
+    </state>
+    <state width="1802" height="543" key="GridCell.Tab.3.right/72.27.1848.1173@72.27.1848.1173" timestamp="1598434446613" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/strapiModule/extensions/users-permissions/config/Auth.js</url>
+          <line>426</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/strapiModule/extensions/users-permissions/controllers/Auth.js</url>
+          <line>426</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/strapiModule/node_modules/strapi-plugin-users-permissions/controllers/Auth.js</url>
+          <line>426</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

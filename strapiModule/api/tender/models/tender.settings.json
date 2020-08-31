@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tenders",
+  "info": {
+    "name": "tender"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "farmer": {
+      "model": "farmer",
+      "via": "tenders"
+    },
+    "beekeeper": {
+      "model": "beekeeper",
+      "via": "tender"
+    }
+  }
+}

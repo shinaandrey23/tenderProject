@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "beekeepers",
+  "info": {
+    "name": "Beekeeper"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "hives": {
+      "collection": "hive",
+      "via": "beekeeper"
+    },
+    "tender": {
+      "via": "beekeeper",
+      "model": "tender"
+    }
+  }
+}

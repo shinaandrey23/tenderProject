@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fields",
+  "info": {
+    "name": "field"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "number": {
+      "required": true,
+      "unique": true,
+      "type": "integer"
+    },
+    "farmer": {
+      "via": "fields",
+      "model": "farmer"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "farmers",
+  "info": {
+    "name": "farmer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "fields": {
+      "collection": "field",
+      "via": "farmer"
+    },
+    "tenders": {
+      "via": "farmer",
+      "collection": "tender"
+    }
+  }
+}

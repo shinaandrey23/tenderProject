@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/beekeepers",
+      "handler": "beekeeper.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beekeepers/count",
+      "handler": "beekeeper.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/beekeepers/:id",
+      "handler": "beekeeper.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/beekeepers",
+      "handler": "beekeeper.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/beekeepers/:id",
+      "handler": "beekeeper.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/beekeepers/:id",
+      "handler": "beekeeper.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
