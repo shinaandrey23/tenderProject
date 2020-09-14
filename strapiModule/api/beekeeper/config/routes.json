@@ -17,8 +17,8 @@
       }
     },
     {
-      "method": "GET",
-      "path": "/beekeepers/:id",
+      "method": "POST",
+      "path": "/beekeeper",
       "handler": "beekeeper.findOne",
       "config": {
         "policies": []

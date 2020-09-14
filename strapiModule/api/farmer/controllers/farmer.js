@@ -1,8 +1,13 @@
-'use strict';
+const { parseMultipartData, sanitizeEntity } = require('strapi-utils');
 
-/**
- * Read the documentation (https://strapi.io/documentation/v3.x/concepts/controllers.html#core-controllers)
- * to customize this controller
- */
+module.exports = {
+  async findOne(ctx) {
+    console.log('start search')
+    console.log(ctx.request.body)
+    return await strapi.query('farmer').findOne({ email: ctx.request.body['email']})
+    // const { id } = ctx.params;
+    // const entity = await strapi.services..findOne({ id });
+    // return sanitizeEntity(entity, { model: strapi.models.farmer });
+  },
+};
 
-module.exports = {};

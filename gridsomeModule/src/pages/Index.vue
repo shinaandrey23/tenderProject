@@ -19,8 +19,8 @@ export default {
   components: {loginForm, userProfile},
   data: function () {
     return {
-      username: sessionStorage.getItem('username'),
-      role: sessionStorage.getItem('role')
+      username: null,
+      role: null
     }
   },
   metaInfo: {
@@ -42,17 +42,25 @@ export default {
       }
     }
   ],
+  mounted() {
+    this.username = sessionStorage.getItem('username')
+    this.role = sessionStorage.getItem('role')
+  }
+  ,
   created() {
     bus.$on('login', data => {
       sessionStorage.setItem('token', data[1])
       sessionStorage.setItem('username', data[0].username)
+      this.username = data[0].username
       sessionStorage.setItem('email', data[0].email)
       sessionStorage.setItem('role', data[0].role.name)
-      location.reload()
+      this.role = data[0].role.name
+      sessionStorage.setItem('id', data[0].id)
     })
     bus.$on('logout', () => {
       sessionStorage.clear()
-      location.reload()
+      this.username = null
+      this.role = null
     })
   }
 }

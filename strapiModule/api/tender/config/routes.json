@@ -47,6 +47,30 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/tender/field:idField",
+      "handler": "tender.findTenderField",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tender/hive:idHive",
+      "handler": "tender.findTenderHive",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/availableTenders",
+      "handler": "tender.availableTenders",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

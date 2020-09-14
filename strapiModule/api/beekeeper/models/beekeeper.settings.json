@@ -15,12 +15,8 @@
       "unique": true
     },
     "hives": {
-      "collection": "hive",
-      "via": "beekeeper"
-    },
-    "tender": {
       "via": "beekeeper",
-      "model": "tender"
+      "collection": "hive"
     }
   }
 }

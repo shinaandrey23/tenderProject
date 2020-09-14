@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/userHives/:userId",
+      "handler": "hive.userHives",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

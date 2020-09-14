@@ -17,8 +17,8 @@
       }
     },
     {
-      "method": "GET",
-      "path": "/farmers/:id",
+      "method": "POST",
+      "path": "/farmer",
       "handler": "farmer.findOne",
       "config": {
         "policies": []

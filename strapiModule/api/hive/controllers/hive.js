@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async userHives(ctx) {
+    const data = await strapi.query('hive').find({beekeeper: ctx.params['userId']})
+    return data
+  }
+};

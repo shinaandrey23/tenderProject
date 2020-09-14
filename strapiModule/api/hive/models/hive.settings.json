@@ -9,14 +9,9 @@
     "timestamps": true
   },
   "attributes": {
-    "number": {
-      "type": "integer",
-      "unique": true,
-      "required": true
-    },
     "beekeeper": {
-      "via": "hives",
-      "model": "beekeeper"
+      "model": "beekeeper",
+      "via": "hives"
     }
   }
 }

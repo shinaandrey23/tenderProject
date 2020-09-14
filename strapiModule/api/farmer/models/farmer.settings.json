@@ -15,12 +15,8 @@
       "unique": true
     },
     "fields": {
-      "collection": "field",
-      "via": "farmer"
-    },
-    "tenders": {
       "via": "farmer",
-      "collection": "tender"
+      "collection": "field"
     }
   }
 }

@@ -9,14 +9,9 @@
     "timestamps": true
   },
   "attributes": {
-    "number": {
-      "required": true,
-      "unique": true,
-      "type": "integer"
-    },
     "farmer": {
-      "via": "fields",
-      "model": "farmer"
+      "model": "farmer",
+      "via": "fields"
     }
   }
 }

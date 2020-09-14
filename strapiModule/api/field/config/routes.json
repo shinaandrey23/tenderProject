@@ -47,6 +47,22 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/fields/:idField",
+      "handler": "field.checkField",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/userFields/:userId",
+      "handler": "field.userFields",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

@@ -9,13 +9,13 @@
     "timestamps": true
   },
   "attributes": {
-    "farmer": {
-      "model": "farmer",
-      "via": "tenders"
+    "field": {
+      "unique": true,
+      "model": "field"
     },
-    "beekeeper": {
-      "model": "beekeeper",
-      "via": "tender"
+    "hive": {
+      "unique": true,
+      "model": "hive"
     }
   }
 }

@@ -5,4 +5,10 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  async findOne(ctx) {
+    // console.log('start search')
+    // console.log(ctx.request.body)
+    return await strapi.query('beekeeper').findOne({ email: ctx.request.body['email']})
+  }
+};
